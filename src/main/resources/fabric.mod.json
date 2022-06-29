@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hy4mc",
+  "version": "${version}",
+
+  "name": "Hy4MC",
+  "description": "HyLogger but in Minecraft",
+  "authors": [
+    "pkstDev"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/hy4mc/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "hy4mc.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "java": ">=17"
+  }
+}
